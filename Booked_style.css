@@ -1,0 +1,95 @@
+body
+{
+    margin: 0px;
+}
+header
+{
+    background-image: url('bathd.jpg');
+    height: 70px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.logo
+{
+    float: left;
+    background-color: honeydew;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 5px;
+    color: black;
+    font-size: 24px;
+}
+.logo img
+{
+    height: 50px;
+}
+.user img
+{
+    height:70px;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+main
+{
+    margin-top: 15px;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+main div
+{
+    width : 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    font-family: fantasy;
+
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+footer
+{
+    padding-left: 50px;
+    background-color: grey;
+    height: 250px;
+}
+.footer-logo img
+{
+    margin: 10px;
+    height: 60px;
+    padding:40px;
+    border-right: 1px solid lightgray;
+}
+footer li
+{
+    float: left;
+    list-style-type:none;
+    padding:5px;
+}
+.address
+{
+    font-size: 17px;
+}

@@ -1,0 +1,87 @@
+body
+{
+    margin: 0px;
+}
+header
+{
+    background-image: url('bathd.jpg');
+    height: 70px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.logo
+{
+    float: left;
+    background-color: honeydew;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 5px;
+    color: black;
+    font-size: 24px;
+}
+.logo img
+{
+    height: 50px;
+}
+.user img
+{
+    height:70px;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+main
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(49, 45, 45);
+}
+.family
+{
+    font-size: 34px;
+    margin: 15px;
+    font-family: cursive;
+}
+section p
+{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+section div
+{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+section img
+{
+    height: 300px;
+    border-radius: 30%;
+    border: 2px solid white;
+}
+footer
+{
+    padding-left: 50px;
+    background-color: grey;
+    height: 250px;
+}
+.footer-logo img
+{
+    margin: 10px;
+    height: 60px;
+    padding:40px;
+    border-right: 1px solid lightgray;
+}
+footer li
+{
+    float: left;
+    list-style-type:none;
+    padding:5px;
+}
+.address
+{
+    font-size: 17px;
+}

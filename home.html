@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>homepage</title>
+        <link rel="stylesheet" href="home_style.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               <a href="home.html"><img src="page-logo.png"></a>
+            </div>
+                <div class="user" style="float: right;">
+                    <a href="profile.html"><img src="user-image.jpg"></a>
+                </div>
+        </header>
+        <main>
+        <section>
+            <div class="navbar">
+                <a href="booked.html">Booked Tickets</a>
+                <a href="help.html">Help Centre</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Profile 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="profile.html">Account</a>
+                    <a href="wishlist.html">Your Wishlist</a>
+                    <a href="cart.html">Your Cart</a>
+                    <a href="login.html">Log Out</a>
+                  </div>
+                </div> 
+        </section>
+        <pre>       <b>1.Browse Events</b>                       2.Choose Your Tickets                       3.Confirm Details </pre>
+        <section>
+            <div id="tags">   
+                <u>Home</u>/<u>Sports Tickets</u>/ Cricket
+            </div >
+            <div id="cricket">
+                Cricket
+            </div>
+        </section>
+        <section>
+            <div id="top-events">
+                Top Events
+            </div>
+        </section>
+        <section style="height: 400px;">
+            <div class="image">
+                <a href="cricket.html"><img class="mySlides" src="nz idia tour.jpg"></a>
+                <a href="ipl2020.html"><img class="mySlides" src="IPL-Trophy.jpg" ></a>
+                <a href="worldT20.html"><img class="mySlides" src="WT20.jpg"></a>
+            </div>
+    
+            <script>
+                var myIndex = 0;
+                carousel();
+    
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 3000); // Change image every 3 seconds
+                }
+            </script>
+        </section>
+        <section style="background-image:url('blur.jpg');">
+            <table>
+                <tr>
+                    <div><td><a href="ipl2020.html"><img class="table-images" src="IPL-Trophy.jpg" alt=""></a></td></div>
+                    <div><td><a href="worldT20.html"><img class="table-images" src="WT20.jpg" alt=""></a></td></div>
+                    <div><td><a href="indiacricket.html"><img class="table-images" src="Board-of-Control-for-Cricket-in-India.jpg" alt=""></a></td></div>
+                    <div><td><a href="cricket.html"><img class="table-images" src="cricket-australia-logo.jpg" alt=""></a></td></div>
+                </tr>
+                <tr>
+                    <div><td><a href="cricket.html"><img class="table-images" src="bangladesh-logo.jpg" alt=""></a></td></div>
+                    <div><td><a href="cricket.html"><img class="table-images" src="england-logo.jpg" alt=""></a></td></div>
+                    <div><td><a href="cricket.html"><img class="table-images" src="new-zealand-cricket.jpg" alt=""></a></td></div>
+                    <div><td><a href="cricket.html"><img class="table-images" src="cricket-south-africa-logo.jpg" alt=""></a></td></div>
+                </tr>
+            </table>
+        </section> 
+        <section class="all-events">
+            <h1>All Events</h1>
+            <div>
+                <h2>A</h2>
+                <span><a href="cricket.html">Australia Cricket</a></span>
+            </div>
+            <div>
+                <h2>B</h2>
+                <span><a href="cricket.html">Bangladesh Cricket</a></span>
+            </div>
+            <div>
+                <h2>C</h2>
+                <span><a href="cricket.html">Cricket Test Series</a></span>
+            </div>
+            <div>
+                <h2>E</h2>
+                <span><a href="cricket.html">England Cricket</a></span>
+            </div>
+            <div>
+                <h2>I</h2>
+                <span><a href="indiacricket.html">India Cricket</a></span>
+                <span><a href="ipl2020.html">Indian Premier League</a></span>
+            </div>
+            <div>
+                <h2>N</h2>
+                <span><a href="cricket.html">New Zeland Cricket</a></span>
+            </div>
+            <div>
+                <h2>O</h2>
+                <span><a href="cricket.html">One Day Cricket</a></span>
+            </div>
+            <div>
+                <h2>S</h2>
+                <span><a href="cricket.html">South Africa Cricket</a></span>
+                <span><a href="cricket.html">Sri Lanka Cricket</a></span>
+            </div>
+            <div>
+                <h2>T</h2>
+                <span><a href="cricket.html">T20 Cricket</a></span>
+                <span><a href="worldT20.html">T20 Worldcup 2020</a></span>
+            </div>
+            <div>
+                <h2>W</h2>
+                <span><a href="cricket.html">West Indes Cricket</a></span>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <li>
+                <span class="footer-logo">
+                    <img src="page-logo.png">
+                </span>
+            </li>
+            <li class="address">
+                <span>
+                    <pre>
+BookMatch,
+Lovely Professional University,
+Jalandhar-Delhi, G.T. Road,
+Phagwara, Punjab (INDIA) -144411.
+E-mail:bookmatch@gmail.com 
+Phone:0561-879979
+<a href="about.html" style="color: cornsilk;">About Us</a>
+                    </pre>
+                </span>
+            </li>
+            <li>
+                <span class="copyright">
+                    <p> Copyright © BookMatch Inc 2020 Company Details.
+                        Use of this web site constitutes acceptance of the Terms and Conditions and Privacy Policy and Cookies Policy.</p>
+                </span>
+            </li>
+        </footer>
+    </body>
+</html>
